@@ -14,9 +14,12 @@ def printDf(df, f):
                    'GENDER'
                    ]
     # to markdown is better but unfortunately not supported by current docker
-    # print(df[columnOrder].to_markdown(tablefmt="grid", index=False), file=f)
-    print(df[columnOrder], file=f)
+    print(df[columnOrder].to_markdown(tablefmt="grid", index=False), file=f)
+    #print(df[columnOrder], file=f)
 
+def intersection(lst1, lst2):
+        lst3 = [value for value in lst1 if value in lst2]
+        return lst3
 
 def paragraph(f):
     print("", file=f)
@@ -64,22 +67,7 @@ def analyze_difference(joint, partcolumn, partid, subcol, debug=False):
 
     return (subset, added | removed | changed, added, removed, changed)
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Parse arguments')
-    parser.add_argument('--base', type=str, help='Base file with path ',default="../../data/2020_Claims_SingleSource_v1.4.csv")
-    parser.add_argument('--new', type=str, help='New file with path ',default="../../data/2021_Claims_SingleSource_v1.3.csv")
-    parser.add_argument('--measure', type=str, default=None, action= 'append',help='MeasureId to be evaluated (optional)')
-    args = parser.parse_args()
-
-    # Method to use pipenv run python <script> <Optional: Measure ID to be checked>
-    # Change these files wherenver needed
-    basefilename = args.base
-    newfilename = args.new
-
-    basefile = pd.read_csv(basefilename, dtype=str)
-    newfile = pd.read_csv(newfilename, dtype=str)
-
+def joinReports(basefile,newfile):
     basefile.columns = basefile.columns.str.replace(' ', '_')
     newfile.columns = newfile.columns.str.replace(' ', '_')
     # Version to capture
@@ -96,22 +84,42 @@ if __name__ == "__main__":
 
     joint["VERSION"] = joint.apply(getJoinMeta, axis=1)
     joint = joint.drop(["VERSION_new", "VERSION_base"], axis=1)[['VERSION',
-                                                                 'Measure_ID',
-                                                                 'DATA_ELEMENT_NAME',
-                                                                 'CODING_SYSTEM',
-                                                                 'CODE',
-                                                                 'MODIFIER',
-                                                                 'PLACE_OF_SERVICE',
-                                                                 'AGE',
-                                                                 'GENDER',
-                                                                 'CONST']]
+                                                             'Measure_ID',
+                                                             'DATA_ELEMENT_NAME',
+                                                             'CODING_SYSTEM',
+                                                             'CODE',
+                                                             'MODIFIER',
+                                                             'PLACE_OF_SERVICE',
+                                                             'AGE',
+                                                             'GENDER',
+                                                             'CONST']]
+
+    return joint
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Parse arguments')
+    parser.add_argument('--base', type=str, help='Base file with path ',default="../../data/2020_Claims_SingleSource_v1.4.csv")
+    parser.add_argument('--new', type=str, help='New file with path ',default="../../data/2021_Claims_SingleSource_v1.3.csv")
+    parser.add_argument('--measure', type=str, default=None, action= 'append',help='MeasureId to be evaluated (optional)')
+    args = parser.parse_args()
+
+    # Method to use pipenv run python <script> <Optional: Measure ID to be checked>
+    # Change these files wherenver needed
+    basefilename = args.base
+    newfilename = args.new
+
+    basefile = pd.read_csv(basefilename, dtype=str)
+    newfile = pd.read_csv(newfilename, dtype=str)
+
+    joint = joinReports(basefile,newfile)
 
     # print("Checking if join is successful ( expected output none)")
     # joint[joint.VERSION == "NONE"]
 
     onlybase = joint[joint.VERSION == "BASE"]
     onlynew = joint[joint.VERSION == "NEW"]
-    intersection = joint[joint.VERSION == "COMMON"]
+    common = joint[joint.VERSION == "COMMON"]
 
     # Main function
     os.makedirs("csv_report", exist_ok=True)
@@ -135,7 +143,7 @@ if __name__ == "__main__":
         print("new rows only", file=f)
         print(len(onlynew), file=f)
         print("common rows only", file=f)
-        print(len(intersection), file=f)
+        print(len(common), file=f)
         paragraph(f)
         print("## Analysis at Measure ID Level level", file=f)
         print("*Added Measures*:" + str(len(added_mid)), file=f)
@@ -147,9 +155,7 @@ if __name__ == "__main__":
         print("*Changed Measures*:" + str(changed_mid), file=f)
 
     report_mid = modified_mid
-    def intersection(lst1, lst2):
-        lst3 = [value for value in lst1 if value in lst2]
-        return lst3
+
 
     if args.measure:
         report_mid = intersection(modified_mid,args.measure)
