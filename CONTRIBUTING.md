@@ -2,17 +2,14 @@
 
 ## Getting Started
 
-Install the following homebrew dependencies:
-```
-brew install jq wget poppler
-```
-
 Run:
 ```
 npm install
 ```
 
 Make changes on a feature branch, then open a pull request. Make sure CI passes on your branch, and you include any relevant new tests.
+
+Make sure to generate/update the js files when updating the typescript files. e.g., running `tsc -w -p .` will recompile the typescript as you update it.
 
 ### Pull Requests
 
@@ -28,9 +25,17 @@ $YEAR refers to the performance year; this command-line argument is required.  $
 To regenerate and validate data, do the following:
 
 ```
-npm run build:measures $YEAR         # generates measures/$YEAR/measures-data.json
-npm run build:benchmarks $YEAR       # generates benchmarks/$YEAR.json
-npm run build:clinical-clusters # generates clinical-clusters/clinical-clusters.json
+npm run init:measures $YEAR         # generates measures/$YEAR/measures-data.json
+npm run update:measures $YEAR       # updates measures/$YEAR/measures-data.json
+npm run build:benchmarks $YEAR      # generates benchmarks/$YEAR.json
+npm run build:clinical-clusters     # generates clinical-clusters/clinical-clusters.json
+```
+
+### Generating measures CSVs
+To export CSVs of the measures data (one for each category):
+
+```
+npm run export:measures $YEAR       # generates tmp/$YEAR/[category]-measures.csv
 ```
 
 ### Validation
@@ -43,21 +48,25 @@ e.g. from the base directory:
 ```
 cat measures/2018/measures-data.json  | node scripts/validate-data.js measures 2018
 ```
-### Additional measures
+### Initializing, Adding, Updating, and Deleting Measures
 
-`util/measures/qcdr-measures.csv` contains all the QCDR measure to be transformed into `measures/$YEAR/measures-data.json` by running `npm run build:measures`.
+To create a new perfomance year for measures, run `npm run init:measures $YEAR`. This will create all the necessary folders and files for the new year, as well as increment the quality eMeasureIds and remove last year's spec links from the new measures-data file.
 
-The csv is formatted for the script to run correctly. If the new version does not conform to how the csv is expected, it will cause the npm build step to fail. When your work is complete, make sure to send the updated `qcdr-measures-v<#>.csv` with a bumped version number back to PIMMS with instructions to use it as the base to make the next set of changes. The next person to update measures-data will thank you!
+New measures and updates to old measures are handled the same as each other. A CSV file with the proposed changes should be placed in the updates/measures/$YEAR folder. IMPORTANT: Do *not* manually modify the changes.meta.json, this is updated automatically during the ingestion process. 
+Once the update file is added, run `npm run update:measures $YEAR`. Errors during ingestion will be logged to your terminal, if any.
+NOTE FOR TESTING: You may add the -t flag to the above update script to run the ingestion without persisting to the change.meta file or measures-data file.
 
-`cp` the new version of the CSV to `util/measures/qcdr-measures.csv`, run `npm run build:measures $YEAR`, and `git diff` to see changes are as expected to `measures/measures-data.json`.
+Deleting measures is handled by the "Year Removed" field in the change request file. Removal change request files are handled in the same way as updates, outlined above.
 
-#### Importing measures from CSV file
+The strata are modified by updating the qcdr and quality strata CSVs in the year's util directory, then running `npm run init:measures $YEAR`.
 
-`scripts/measures/import-qcdr-measures.js` script handles importing QCDR measures from a CSV and converting them to the qpp-measures-data measure schema. The `convertCsvToMeasures` function can be replicated for new CSVs if appropriate.
+The specification links are added by placing the CSV or JSON files into the year's util directory, then running `npm run init:measures $YEAR`.
 
-IMPORTANT: To handle UTF-8 encoding, make sure that you save any new csv from excel as `CSV UTF-8 (Comma delimited) (.csv)`. This will keep Unknown Characters out of the data set.
+### Importing Measures from a CSV File
 
-### Additional benchmarks
+To handle UTF-8 encoding, make sure that you save any new csv from excel as `CSV UTF-8 (Comma delimited) (.csv)`. This will keep Unknown Characters out of the data set.
+
+### Additional Benchmarks
 
 For 2018-2019, only 'full images' of benchmark data are accepted; the csv must contain a full list of included benchmarks. Incremental files are no longer supported (2017 is no longer supported).
 
@@ -78,9 +87,9 @@ For 2018-2019, only 'full images' of benchmark data are accepted; the csv must c
 
   Please verify the changes are as expected. (You can run `git diff`.)
 
-### Deleting measures and benchmarks
+### Creating and updating MVP (MIPS Value Pathway) data
 
-TODO: Support a safer way to delete benchmarks. You could add a key saying `delete: true` and have the generate step filter out benchmarks with those keys. This way you wouldn't change the generation artifacts.
+Each performance year, we will receive a file named `mvp.json` which contains the data for MVPs for that year. Place this file in the `mvp/$YEAR` directory for the performance year. Then run `npm run update:mvp` which will create the `mvp-enriched.json` file populated with complete measure data. If we receive an updated `mvp.json`, replace the file in the `mvp/$YEAR` directory and simply run `npm run update:mvp` again, which will replace the `mvp-enriched.json` file.
 
 ## Testing
 
@@ -88,6 +97,8 @@ When making changes to measures-data, include tests in the tests directory and m
 
 ```
 npm test
+npx jest
+npm run jest:cov
 ```
 
 We also use Github Actions CI to run tests on every branch.
