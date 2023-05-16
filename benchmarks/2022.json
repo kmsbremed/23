@@ -17,26 +17,8 @@
       30,
       20,
       10
-    ]
-  },
-  {
-    "measureId": "001",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      100,
-      100,
-      70,
-      60,
-      50,
-      40,
-      30,
-      20,
-      10
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "001",
@@ -56,7 +38,8 @@
       30,
       20,
       10
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "001",
@@ -76,7 +59,8 @@
       30,
       20,
       10
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "005",
@@ -96,7 +80,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "006",
@@ -116,7 +101,8 @@
       96.13,
       99.84,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "007",
@@ -136,7 +122,8 @@
       91.8,
       93.59,
       96
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "007",
@@ -156,7 +143,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "008",
@@ -176,7 +164,8 @@
       94.26,
       95.65,
       97.31
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "008",
@@ -196,7 +185,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "009",
@@ -216,7 +206,8 @@
       84.84,
       87.4,
       91.07
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "012",
@@ -236,7 +227,8 @@
       98.15,
       99.18,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "014",
@@ -256,7 +248,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "019",
@@ -276,7 +269,8 @@
       93.29,
       96.52,
       98.91
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "019",
@@ -296,7 +290,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "024",
@@ -316,7 +311,8 @@
       96.36,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "039",
@@ -336,7 +332,8 @@
       91.54,
       97.78,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "039",
@@ -356,7 +353,8 @@
       74.02,
       82.65,
       95.51
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "047",
@@ -376,7 +374,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "047",
@@ -396,7 +395,8 @@
       98.33,
       99.76,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "048",
@@ -416,7 +416,8 @@
       94.01,
       99.68,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "050",
@@ -436,7 +437,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "052",
@@ -456,7 +458,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "065",
@@ -476,7 +479,28 @@
       95.8,
       98.02,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "065",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      52.69,
+      88.37,
+      92.62,
+      94.92,
+      96.12,
+      97.24,
+      98.27,
+      98.9,
+      99.45,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "066",
@@ -496,7 +520,8 @@
       88.21,
       92.2,
       95.88
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "066",
@@ -516,7 +541,8 @@
       97.37,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "076",
@@ -536,7 +562,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "076",
@@ -556,7 +583,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "093",
@@ -576,7 +604,8 @@
       99.22,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "104",
@@ -596,7 +625,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "107",
@@ -616,7 +646,8 @@
       45.31,
       67.71,
       90.38
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "110",
@@ -636,26 +667,8 @@
       100,
       100,
       100
-    ]
-  },
-  {
-    "measureId": "110",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "110",
@@ -675,7 +688,8 @@
       57.66,
       65.93,
       78.08
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "110",
@@ -695,7 +709,8 @@
       92.57,
       98.37,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "111",
@@ -715,7 +730,8 @@
       97.6,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "111",
@@ -735,7 +751,8 @@
       72.88,
       80.24,
       88.36
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "111",
@@ -755,7 +772,8 @@
       79.45,
       85.75,
       96.44
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "112",
@@ -775,26 +793,8 @@
       96.15,
       98.86,
       100
-    ]
-  },
-  {
-    "measureId": "112",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "112",
@@ -814,7 +814,8 @@
       67.44,
       73.51,
       81.09
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "112",
@@ -834,7 +835,8 @@
       74.87,
       85.07,
       98.25
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "113",
@@ -854,26 +856,8 @@
       99.28,
       100,
       100
-    ]
-  },
-  {
-    "measureId": "113",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "113",
@@ -893,7 +877,28 @@
       81.94,
       92.36,
       99.74
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "116",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      36.11,
+      76.32,
+      86.05,
+      89.25,
+      92.7,
+      94.26,
+      95.89,
+      97.58,
+      98.59,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "117",
@@ -913,7 +918,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "117",
@@ -933,7 +939,8 @@
       83.21,
       98.34,
       99.89
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "117",
@@ -953,7 +960,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "118",
@@ -973,7 +981,8 @@
       87.27,
       92,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "119",
@@ -993,7 +1002,8 @@
       90.71,
       93.88,
       98.36
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "119",
@@ -1013,7 +1023,8 @@
       97.83,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "126",
@@ -1033,7 +1044,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "127",
@@ -1053,7 +1065,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "128",
@@ -1073,7 +1086,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "128",
@@ -1093,7 +1107,8 @@
       73.47,
       86.08,
       95.32
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "128",
@@ -1113,7 +1128,8 @@
       99.53,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "130",
@@ -1133,7 +1149,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "130",
@@ -1153,7 +1170,8 @@
       98.4,
       99.31,
       99.89
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "130",
@@ -1173,7 +1191,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "134",
@@ -1193,26 +1212,8 @@
       100,
       100,
       100
-    ]
-  },
-  {
-    "measureId": "134",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "134",
@@ -1232,7 +1233,8 @@
       99.69,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "137",
@@ -1252,7 +1254,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "138",
@@ -1272,7 +1275,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "141",
@@ -1292,7 +1296,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "141",
@@ -1312,7 +1317,8 @@
       98.38,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "143",
@@ -1332,7 +1338,8 @@
       98.42,
       99.15,
       99.85
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "143",
@@ -1352,7 +1359,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "144",
@@ -1372,7 +1380,8 @@
       99.16,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "145",
@@ -1392,7 +1401,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "145",
@@ -1412,7 +1422,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "147",
@@ -1432,7 +1443,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "147",
@@ -1452,7 +1464,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "155",
@@ -1472,7 +1485,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "155",
@@ -1492,7 +1506,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "164",
@@ -1512,7 +1527,8 @@
       5.06,
       3.77,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "167",
@@ -1532,7 +1548,8 @@
       1.19,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "168",
@@ -1552,7 +1569,8 @@
       1.28,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "176",
@@ -1572,7 +1590,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "177",
@@ -1592,7 +1611,8 @@
       99.4,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "178",
@@ -1612,7 +1632,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "180",
@@ -1632,7 +1653,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "181",
@@ -1652,7 +1674,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "181",
@@ -1672,7 +1695,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "182",
@@ -1692,7 +1716,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "185",
@@ -1712,7 +1737,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "187",
@@ -1732,7 +1758,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "191",
@@ -1752,7 +1779,8 @@
       98.81,
       99.64,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "191",
@@ -1772,7 +1800,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "217",
@@ -1792,7 +1821,8 @@
       67.86,
       75.86,
       88.46
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "218",
@@ -1812,7 +1842,8 @@
       58.97,
       63.22,
       72.41
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "219",
@@ -1832,7 +1863,8 @@
       60.53,
       66.33,
       74.47
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "220",
@@ -1852,7 +1884,8 @@
       68.29,
       74.03,
       87.18
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "221",
@@ -1872,7 +1905,8 @@
       61.85,
       73.85,
       81.44
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "222",
@@ -1892,26 +1926,48 @@
       62.96,
       72.06,
       78.57
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "226",
-    "benchmarkYear": 2020,
     "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "electronicHealthRecord",
     "deciles": [
-      0,
-      0,
-      30,
-      40,
+      1.93,
+      13.7,
+      25,
+      36.93,
       50,
-      60,
-      70,
-      80,
-      90
-    ]
+      62.5,
+      75,
+      85.85,
+      93.38,
+      98.46
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "226",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      3.23,
+      18.31,
+      39.13,
+      61.83,
+      78.65,
+      88.37,
+      95.77,
+      99.8,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "236",
@@ -1931,26 +1987,8 @@
       70,
       80,
       90
-    ]
-  },
-  {
-    "measureId": "236",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "236",
@@ -1970,7 +2008,28 @@
       70,
       80,
       90
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "238",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "electronicHealthRecord",
+    "deciles": [
+      24.67,
+      13.43,
+      9.56,
+      6.9,
+      4.8,
+      3.17,
+      1.31,
+      0.13,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "240",
@@ -1990,7 +2049,8 @@
       50,
       53.36,
       59.91
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "243",
@@ -2010,7 +2070,8 @@
       45.76,
       59.01,
       90.91
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "249",
@@ -2030,7 +2091,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "249",
@@ -2050,7 +2112,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "250",
@@ -2070,7 +2133,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "250",
@@ -2090,7 +2154,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "254",
@@ -2110,7 +2175,8 @@
       99.38,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "265",
@@ -2130,7 +2196,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "268",
@@ -2150,7 +2217,8 @@
       75,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "277",
@@ -2170,7 +2238,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "279",
@@ -2190,7 +2259,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "282",
@@ -2210,7 +2280,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "283",
@@ -2230,7 +2301,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "286",
@@ -2250,7 +2322,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "288",
@@ -2270,7 +2343,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "290",
@@ -2290,7 +2364,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "291",
@@ -2310,7 +2385,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "293",
@@ -2330,7 +2406,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "305",
@@ -2350,7 +2427,8 @@
       2.9,
       4.41,
       7.69
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "309",
@@ -2370,7 +2448,8 @@
       47.16,
       55.12,
       68.74
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "310",
@@ -2390,26 +2469,68 @@
       47.59,
       54.39,
       65.67
-    ]
+    ],
+    "percentiles": {}
   },
   {
-    "measureId": "318",
-    "benchmarkYear": 2020,
+    "measureId": "317",
     "performanceYear": 2022,
-    "submissionMethod": "cmsWebInterface",
-    "isToppedOut": false,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "claims",
     "deciles": [
-      0,
-      0,
-      30,
-      40,
-      50,
-      60,
-      70,
-      80,
-      90
-    ]
+      0.2,
+      26.42,
+      80.54,
+      96.17,
+      99.2,
+      99.82,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "317",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "electronicHealthRecord",
+    "deciles": [
+      0.06,
+      4.42,
+      12.46,
+      17.06,
+      19.95,
+      22.8,
+      25.72,
+      28.8,
+      33.12,
+      40.85
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "317",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.11,
+      7.42,
+      18.41,
+      28.62,
+      49.73,
+      82.18,
+      94.08,
+      98.96,
+      99.94,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "318",
@@ -2429,7 +2550,8 @@
       83.14,
       92.59,
       98.06
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "320",
@@ -2449,7 +2571,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "320",
@@ -2469,7 +2592,8 @@
       99.5,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "322",
@@ -2489,7 +2613,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "323",
@@ -2509,7 +2634,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "324",
@@ -2529,7 +2655,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "331",
@@ -2549,7 +2676,8 @@
       11.84,
       4.35,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "332",
@@ -2569,7 +2697,8 @@
       90.48,
       98.57,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "338",
@@ -2589,7 +2718,8 @@
       98.04,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "340",
@@ -2609,7 +2739,48 @@
       88.64,
       96.92,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "350",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      26.18,
+      97.14,
+      99.72,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "351",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      47.98,
+      88.75,
+      97.93,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "354",
@@ -2629,7 +2800,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "355",
@@ -2649,7 +2821,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "356",
@@ -2669,7 +2842,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "357",
@@ -2689,7 +2863,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "358",
@@ -2709,7 +2884,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "360",
@@ -2729,7 +2905,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "364",
@@ -2749,7 +2926,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "370",
@@ -2769,7 +2947,8 @@
       13.51,
       16.67,
       23.91
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "374",
@@ -2789,7 +2968,8 @@
       47.83,
       64.86,
       86.13
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "374",
@@ -2809,7 +2989,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "375",
@@ -2829,7 +3010,8 @@
       13.79,
       20.73,
       28.31
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "376",
@@ -2849,7 +3031,8 @@
       16.87,
       20.98,
       28.23
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "378",
@@ -2869,7 +3052,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "379",
@@ -2889,7 +3073,8 @@
       4.92,
       7.24,
       11.24
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "382",
@@ -2909,7 +3094,8 @@
       51.9,
       64.57,
       87.94
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "383",
@@ -2929,7 +3115,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "384",
@@ -2949,7 +3136,28 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "385",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      10.87,
+      22.31,
+      34.55,
+      54.17,
+      56.67,
+      59.45,
+      63.3,
+      67.12,
+      71.64,
+      88.57
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "389",
@@ -2969,7 +3177,8 @@
       97.2,
       99.87,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "394",
@@ -2989,7 +3198,8 @@
       25.57,
       33.33,
       45.45
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "395",
@@ -3009,7 +3219,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "395",
@@ -3029,7 +3240,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "396",
@@ -3049,7 +3261,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "396",
@@ -3069,7 +3282,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "397",
@@ -3089,7 +3303,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "397",
@@ -3109,7 +3324,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "398",
@@ -3129,7 +3345,28 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "400",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.04,
+      0.2,
+      0.54,
+      1.01,
+      1.87,
+      3.37,
+      5.42,
+      27.76,
+      95.96,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "402",
@@ -3149,7 +3386,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "404",
@@ -3169,7 +3407,28 @@
       88.99,
       92.91,
       99.6
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "405",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "claims",
+    "deciles": [
+      0.47,
+      4,
+      6.67,
+      16.67,
+      26.92,
+      57.14,
+      73.15,
+      97.01,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "405",
@@ -3189,7 +3448,28 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "406",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "claims",
+    "deciles": [
+      40,
+      14.29,
+      3.7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "406",
@@ -3209,7 +3489,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "410",
@@ -3229,7 +3510,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "415",
@@ -3249,7 +3531,8 @@
       98.15,
       99.33,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "416",
@@ -3269,7 +3552,8 @@
       2,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "418",
@@ -3289,7 +3573,8 @@
       15.12,
       21.62,
       54.55
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "419",
@@ -3309,7 +3594,8 @@
       2.94,
       1.53,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "424",
@@ -3329,7 +3615,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "425",
@@ -3349,7 +3636,8 @@
       99.46,
       99.96,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "430",
@@ -3369,7 +3657,28 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "431",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      1.19,
+      23.49,
+      43.48,
+      59.02,
+      73.71,
+      84.25,
+      91.2,
+      96.49,
+      99.9,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "436",
@@ -3389,7 +3698,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "436",
@@ -3409,7 +3719,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "438",
@@ -3429,7 +3740,8 @@
       77.39,
       80.02,
       83.43
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "438",
@@ -3449,7 +3761,28 @@
       99.5,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "439",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      3.03,
+      0.09,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "440",
@@ -3469,7 +3802,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "441",
@@ -3489,7 +3823,8 @@
       72.22,
       76.35,
       80.61
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "445",
@@ -3509,7 +3844,28 @@
       1.27,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "450",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      43.33,
+      68.42,
+      75,
+      80.87,
+      84.38,
+      86.82,
+      90,
+      92.59,
+      94.12,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "453",
@@ -3529,7 +3885,8 @@
       6.45,
       4.76,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "457",
@@ -3549,7 +3906,8 @@
       2.53,
       1.35,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "463",
@@ -3569,7 +3927,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "464",
@@ -3589,7 +3948,8 @@
       97.62,
       98.47,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "472",
@@ -3609,7 +3969,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "475",
@@ -3629,7 +3990,8 @@
       18.22,
       22.72,
       31.64
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "477",
@@ -3649,7 +4011,28 @@
       99.52,
       99.93,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "478",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      22.58,
+      34.38,
+      47.62,
+      55.77,
+      58.21,
+      62.5,
+      69.21,
+      73.83,
+      86.41,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "479",
@@ -3657,16 +4040,19 @@
     "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
     "deciles": [
-      0.1634,
-      0.1595,
-      0.1555,
-      0.1519,
-      0.1483,
-      0.1446,
-      0.1402,
-      0.1343,
-      0.0927
-    ]
+      0.1854,
+      0.1668,
+      0.1613,
+      0.157,
+      0.1533,
+      0.1499,
+      0.1464,
+      0.1424,
+      0.1378,
+      0.1315
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "480",
@@ -3674,33 +4060,39 @@
     "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
     "deciles": [
-      0.0269,
-      0.0251,
-      0.0239,
-      0.0229,
-      0.0218,
-      0.0209,
-      0.02,
-      0.0186,
-      0.0105
-    ]
+      0.0432,
+      0.0347,
+      0.032,
+      0.0302,
+      0.0289,
+      0.028,
+      0.027,
+      0.026,
+      0.0249,
+      0.0233
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "484",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
     "deciles": [
-      46.2917,
-      42.8243,
-      40.9992,
-      39.6749,
-      38.7387,
-      38.0701,
-      37.093,
-      35.6894,
-      33.4776
-    ]
+      51.7,
+      38.97,
+      35.86,
+      33.79,
+      32.27,
+      30.91,
+      29.63,
+      28.44,
+      27.17,
+      25.37
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "AAD12",
@@ -3720,7 +4112,28 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "AAD13",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      92.73,
+      96.23,
+      97.04,
+      97.64,
+      98.28,
+      98.57,
+      99.08,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "AAD6",
@@ -3740,7 +4153,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAD7",
@@ -3760,7 +4174,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAN5",
@@ -3780,7 +4195,8 @@
       71.9,
       77.63,
       83.41
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAN8",
@@ -3800,7 +4216,8 @@
       91.33,
       94.52,
       98.98
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAN9",
@@ -3820,7 +4237,8 @@
       96.26,
       97.37,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAO16",
@@ -3840,7 +4258,8 @@
       96.61,
       97.64,
       98.8
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAO20",
@@ -3860,7 +4279,8 @@
       94.59,
       96.15,
       98.11
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAO23",
@@ -3880,7 +4300,8 @@
       75.63,
       84.29,
       89.35
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AAO24",
@@ -3900,7 +4321,68 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "ABFM12",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      14.57,
+      45.44,
+      58.09,
+      73.56,
+      87.8,
+      99.73,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ABG41",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      76.67,
+      94.55,
+      97.73,
+      99.39,
+      99.68,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ABG43",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      97.04,
+      98.28,
+      99.19,
+      99.36,
+      99.49,
+      99.66,
+      99.78,
+      99.82,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "ACEP19",
@@ -3920,7 +4402,8 @@
       71.93,
       77.27,
       82.1
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP21",
@@ -3940,7 +4423,8 @@
       3.52,
       2.58,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP22",
@@ -3960,7 +4444,8 @@
       40.62,
       46.14,
       52.36
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP25",
@@ -3980,7 +4465,8 @@
       77.86,
       84.01,
       92.06
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP30",
@@ -4000,7 +4486,8 @@
       82.61,
       86.42,
       88.89
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP31",
@@ -4020,7 +4507,8 @@
       89.52,
       92.07,
       93.48
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP48",
@@ -4040,7 +4528,50 @@
       93.88,
       94.69,
       96.5
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "ACEP50",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      319,
+      246,
+      229,
+      205,
+      191,
+      181.5,
+      174,
+      167,
+      159,
+      133,
+      60
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACEP51",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      236,
+      183,
+      157,
+      146,
+      140,
+      129,
+      123,
+      117,
+      111,
+      89,
+      22
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "ACEP52",
@@ -4060,7 +4591,8 @@
       69.79,
       72.18,
       75.89
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACEP53",
@@ -4080,7 +4612,108 @@
       97.06,
       98.85,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "ACEP55",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      20,
+      25.41,
+      43.67,
+      45.49,
+      48.21,
+      61.93,
+      65.31,
+      69.49,
+      75.21,
+      78.57
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACEP59",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      51.38,
+      66.07,
+      71.16,
+      78.63,
+      81.92,
+      84.12,
+      86.93,
+      89.1,
+      93.29,
+      94.94
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACEP60",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      68.1,
+      76.83,
+      82.78,
+      84.24,
+      87.77,
+      89.76,
+      91.89,
+      93.33,
+      94.72,
+      96.51
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACEP61",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      68.86,
+      60,
+      55.34,
+      43.37,
+      40.74,
+      38.88,
+      33.64,
+      30.48,
+      26.34,
+      9.58
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACEP62",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      52.8,
+      70.06,
+      75.78,
+      79.71,
+      82.84,
+      85.56,
+      89.52,
+      93.21,
+      95.64,
+      97.48
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "ACMS4",
@@ -4100,7 +4733,8 @@
       0.61,
       0.38,
       0.17
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACQR3",
@@ -4120,7 +4754,8 @@
       98.48,
       99.02,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACR10",
@@ -4140,7 +4775,8 @@
       51.35,
       55.42,
       62.03
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACR12",
@@ -4160,7 +4796,8 @@
       46.66,
       69.69,
       85.7
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACR14",
@@ -4180,7 +4817,28 @@
       54.68,
       62.5,
       66.67
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "ACR15",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      10.01,
+      53.85,
+      60.63,
+      64.56,
+      69.82,
+      73.02,
+      75.56,
+      79.03,
+      82.05,
+      89.06
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "ACRAD15",
@@ -4200,7 +4858,8 @@
       1.88,
       1.33,
       0.84
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD16",
@@ -4220,7 +4879,8 @@
       2.69,
       1.93,
       1.1
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD17",
@@ -4240,7 +4900,8 @@
       4.79,
       3.61,
       2.49
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD18",
@@ -4260,7 +4921,8 @@
       2.16,
       1.51,
       1.07
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD19",
@@ -4280,7 +4942,8 @@
       7.87,
       4.38,
       2.75
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD25",
@@ -4300,7 +4963,8 @@
       8.55,
       3.98,
       0.91
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ACRAD34",
@@ -4320,7 +4984,88 @@
       95.12,
       95.12,
       97.13
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "ACRAD36",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      25,
+      53.91,
+      70,
+      85,
+      93.51,
+      99,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACRAD37",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      81.19,
+      90.5,
+      95,
+      98,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACRAD40",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      62,
+      94.44,
+      99.17,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "ACRAD41",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      16,
+      36,
+      58,
+      72,
+      86,
+      98,
+      99.07,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "AQI48",
@@ -4340,7 +5085,8 @@
       94.23,
       95.42,
       96.66
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AQI56",
@@ -4360,7 +5106,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AQI62",
@@ -4380,7 +5127,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AQI65",
@@ -4400,7 +5148,8 @@
       99.68,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AQI68",
@@ -4420,7 +5169,68 @@
       99.5,
       99.95,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "AQI69",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      57.21,
+      92.86,
+      97.78,
+      99.03,
+      99.6,
+      99.87,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "AQI72",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      80.25,
+      98.43,
+      99.8,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "AQI73",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      85.18,
+      96.91,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "AQUA14",
@@ -4440,7 +5250,8 @@
       4.6,
       1.74,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "AQUA15",
@@ -4460,7 +5271,28 @@
       78.37,
       80.03,
       84.5
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "AQUA18",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      3.85,
+      8.33,
+      15.38,
+      18.92,
+      24.16,
+      28.95,
+      31.85,
+      37.33,
+      39.13,
+      52.17
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "AQUA26",
@@ -4480,187 +5312,108 @@
       2.6,
       0.92,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
-    "measureId": "CAHPS_1",
-    "benchmarkYear": 2020,
+    "measureId": "AQUA8",
     "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
     "deciles": [
-      0,
-      81.12,
-      82.19,
-      83.56,
-      84.57,
-      85.43,
-      86.15,
-      88.07,
-      89.62
-    ]
+      34.43,
+      10.85,
+      4.41,
+      2.8,
+      1.96,
+      1.55,
+      1.27,
+      0.96,
+      0.47,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
-    "measureId": "CAHPS_11",
-    "benchmarkYear": 2020,
+    "measureId": "ASPS27",
     "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
     "deciles": [
+      26.04,
+      18.89,
+      4.61,
+      3.38,
+      1.11,
+      0.44,
       0,
-      18.43,
-      19.78,
-      21.35,
-      22.34,
-      23.85,
-      25.15,
-      27.38,
-      29.75
-    ]
+      0,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
-    "measureId": "CAHPS_2",
-    "benchmarkYear": 2020,
+    "measureId": "ASPS28",
     "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
     "deciles": [
-      0,
-      91.74,
-      92.77,
-      93.17,
-      93.61,
-      93.99,
-      94.59,
-      94.95,
-      95.66
-    ]
+      97.83,
+      99.62,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
-    "measureId": "CAHPS_3",
-    "benchmarkYear": 2020,
+    "measureId": "ASPS29",
     "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
     "deciles": [
+      30.58,
+      7.09,
+      1.75,
+      0.2,
       0,
-      90.69,
-      91.45,
-      91.86,
-      92.45,
-      92.97,
-      93.5,
-      93.9,
-      94.44
-    ]
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
-    "measureId": "CAHPS_4",
-    "benchmarkYear": 2020,
+    "measureId": "CAP22",
     "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
     "deciles": [
-      0,
-      77.21,
-      78.82,
-      79.98,
-      80.82,
-      81.35,
-      82.73,
-      83.75,
-      85.94
-    ]
-  },
-  {
-    "measureId": "CAHPS_5",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
+      46.74,
+      70.41,
+      83.69,
+      91.03,
+      94.23,
+      95.96,
+      96.95,
+      97.99,
+      98.98,
+      100
+    ],
     "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      55.33,
-      57.03,
-      58.32,
-      59.44,
-      61.49,
-      62.91,
-      64.42,
-      65.72
-    ]
-  },
-  {
-    "measureId": "CAHPS_6",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      55.42,
-      56.62,
-      58.46,
-      60.31,
-      62.6,
-      63.68,
-      65.19,
-      68.77
-    ]
-  },
-  {
-    "measureId": "CAHPS_8",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      83.45,
-      84.63,
-      85.59,
-      86.17,
-      86.79,
-      87.48,
-      87.94,
-      88.7
-    ]
-  },
-  {
-    "measureId": "CAHPS_9",
-    "benchmarkYear": 2020,
-    "performanceYear": 2022,
-    "submissionMethod": "certifiedSurveyVendor",
-    "isToppedOut": false,
-    "isHighPriority": true,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      0,
-      91.39,
-      92.08,
-      92.76,
-      93.07,
-      93.49,
-      94.05,
-      94.94,
-      95.4
-    ]
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "CAP28",
@@ -4680,7 +5433,68 @@
       93.61,
       97.3,
       97.92
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "CAP30",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      39.57,
+      53.13,
+      72.73,
+      77.39,
+      80,
+      90,
+      97.59,
+      98.52,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "CAP33",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      5.26,
+      55.84,
+      70.37,
+      78.23,
+      83.56,
+      90.13,
+      96.37,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "CAP38",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      40.56,
+      84.96,
+      89.36,
+      95.15,
+      98.44,
+      99.83,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "CDR2",
@@ -4700,7 +5514,8 @@
       24.8,
       25.81,
       34.48
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "CDR6",
@@ -4720,467 +5535,448 @@
       31.25,
       32.84,
       35.42
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "COST_ACOPD_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      8117.16,
-      7152.14,
-      6224.44,
-      5334.65,
-      4531.58,
-      3987.52,
-      3256.56,
-      2783.44,
-      2371.29
-    ]
+      8232.91,
+      6109.03,
+      5481.33,
+      5088.87,
+      4778.55,
+      4504.07,
+      4218.92,
+      3920.79,
+      3579.74,
+      3121.99
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_AKID_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      75411.91,
-      61532.27,
-      54903.61,
-      50235.43,
-      46611.89,
-      43257.38,
-      40079.11,
-      36465.24,
-      29549.94
-    ]
+      82993.5,
+      57779,
+      51895.1,
+      48761.7,
+      46419.6,
+      44179.4,
+      42147.8,
+      40290.3,
+      38313.4,
+      35464.1
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_CCLI_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
-    "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      28304.29,
-      25817.94,
-      24441.25,
-      23218.77,
-      22313.44,
-      21390.54,
-      20464.67,
-      19368.21,
-      18031.78
-    ]
-  },
-  {
-    "measureId": "COST_CRR_1",
     "benchmarkYear": 2022,
-    "performanceYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      24945.16,
-      24017.35,
-      23543.17,
-      22871.39,
-      21674.13,
-      20929.32,
-      19836.13,
-      18533.44,
-      17873.49
-    ]
+      35824.2,
+      27631.4,
+      25519.9,
+      24219.2,
+      23269,
+      22422.3,
+      21592.6,
+      20766.6,
+      19755.7,
+      18413.2
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_COPDE_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      18675.31,
-      17307.43,
-      16372.54,
-      15604.94,
-      14970.38,
-      14430.86,
-      13892.49,
-      13295.73,
-      12546.32
-    ]
+      20977.7,
+      17784,
+      16611.7,
+      15924,
+      15376.1,
+      14999.5,
+      14597,
+      14181.8,
+      13711.8,
+      13111.4
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "COST_CRR_1",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "administrativeClaims",
+    "deciles": [
+      31332.6,
+      28940.5,
+      28131.2,
+      27452.9,
+      27016.5,
+      26667.8,
+      26285.8,
+      25884.6,
+      25376.8,
+      24823.4
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_D_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      11117.16,
-      10452.14,
-      9324.44,
-      7534.65,
-      6723.58,
-      5943.52,
-      5196.56,
-      4753.44,
-      4074.29
-    ]
+      12354.6,
+      8921.06,
+      7959.33,
+      7380.7,
+      6943.13,
+      6562.14,
+      6190.44,
+      5793.96,
+      5356.65,
+      4750.12
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_EOPCI_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      12929.59,
-      12361.93,
-      12020.77,
-      11718.3,
-      11423.62,
-      11139.06,
-      10833.26,
-      10451.74,
-      9804.94
-    ]
+      14744.5,
+      13123.6,
+      12553.8,
+      12219.8,
+      11934.1,
+      11669.6,
+      11410.7,
+      11088.3,
+      10712.9,
+      9947.21
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_FIHR_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      5349.95,
-      5249.09,
-      5182.94,
-      5125.83,
-      5063.77,
-      4981.84,
-      4848.65,
-      4595.73,
-      4057.33
-    ]
+      5771.82,
+      5455.46,
+      5365.3,
+      5306.19,
+      5257.69,
+      5207.44,
+      5137.37,
+      5016.84,
+      4791.8,
+      4307.42
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_HAC_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      7936.06,
-      7156.14,
-      6742.84,
-      6420.16,
-      6135.27,
-      5874.23,
-      5622.11,
-      5299.2,
-      4874.37
-    ]
+      9463.74,
+      7736.37,
+      7171.43,
+      6727.91,
+      6420.15,
+      6143.75,
+      5875.05,
+      5640.2,
+      5381.7,
+      4930.27
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_IHCI_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      37760.09,
-      34337.22,
-      31954.77,
-      29919.7,
-      28180.2,
-      26419.68,
-      24764.81,
-      23085.95,
-      20765.67
-    ]
+      41780.2,
+      32497,
+      29840.4,
+      28237.2,
+      27062.4,
+      26008.4,
+      25003.1,
+      24052.6,
+      22929.5,
+      21117.1
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_IOL_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      3446.1,
-      3278.32,
-      3202.36,
-      3138.86,
-      3085.63,
-      3044.62,
-      3008.15,
-      2968.21,
-      2908.57
-    ]
+      4602.27,
+      3553.76,
+      3312.21,
+      3217.44,
+      3144.02,
+      3082.49,
+      3037.57,
+      3001.94,
+      2964.74,
+      2914.66
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_KA_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      18603.96,
-      18033.9,
-      17582.21,
-      17153.79,
-      16763.84,
-      16389.29,
-      16018.28,
-      15551.42,
-      14823.17
-    ]
+      20569,
+      18823.5,
+      18258,
+      17761.8,
+      17299.6,
+      16894.8,
+      16501.6,
+      16108.7,
+      15637.8,
+      14746.6
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_LGH_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      14461.56,
-      13583.97,
-      13044.92,
-      12621.13,
-      12286.48,
-      11976.22,
-      11690.77,
-      11368.37,
-      10905.85
-    ]
+      15654.3,
+      13925.5,
+      13425.5,
+      12986.8,
+      12745.7,
+      12543.4,
+      12302.3,
+      12062.7,
+      11789.1,
+      11401.4
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_LPMSM_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      7512.47,
-      7155.65,
-      6942.79,
-      6757.64,
-      6581.98,
-      6422.52,
-      6242.21,
-      5988.81,
-      5523.27
-    ]
+      8624.83,
+      7625.2,
+      7220.97,
+      6991.93,
+      6819.72,
+      6640,
+      6477.53,
+      6308.58,
+      6081.81,
+      5663.36
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_LSFDD_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      41199.35,
-      39116.85,
-      37816.66,
-      36897.05,
-      36038.59,
-      35260.7,
-      34602.95,
-      33808.5,
-      32751.41
-    ]
+      53039.8,
+      42229.3,
+      40101.7,
+      38936.8,
+      37924.8,
+      37153.5,
+      36347.7,
+      35636,
+      34849.4,
+      33807.3
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_MR_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      4326.22,
-      3544.78,
-      3014.65,
-      2401.34,
-      1707.71,
-      1019.62,
-      857.36,
-      787.23,
-      674.29
-    ]
+      3136.7,
+      2205.69,
+      1954.29,
+      1829.93,
+      1721.78,
+      1634.94,
+      1551.14,
+      1464.76,
+      1377.81,
+      1258.86
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_NECABG_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      50004.26,
-      47692.97,
-      46434.35,
-      45489.06,
-      44767.53,
-      44132.86,
-      43474.72,
-      42695.9,
-      41765.37
-    ]
+      59804.4,
+      51552.1,
+      49173,
+      48023.5,
+      47208.5,
+      46475.4,
+      45822,
+      45055.9,
+      44327.6,
+      43331.9
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_PHA_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      19547.39,
-      18685.87,
-      18139.75,
-      17635.8,
-      17175.66,
-      16720.87,
-      16319.13,
-      15863.63,
-      15189.45
-    ]
+      22574.6,
+      19661.7,
+      18869.7,
+      18371.1,
+      17902,
+      17468.15,
+      17065.9,
+      16588.8,
+      16057.4,
+      15363.4
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_RUSST_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
-    "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
-    "deciles": [
-      7287.49,
-      6798.04,
-      6522.46,
-      6322.33,
-      6149.46,
-      5991.96,
-      5825.88,
-      5636.74,
-      5373.93
-    ]
-  },
-  {
-    "measureId": "COST_SPH_1",
     "benchmarkYear": 2022,
-    "performanceYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      13917.97,
-      12954.9,
-      12321.48,
-      11885.72,
-      11511.13,
-      11175.66,
-      10847.72,
-      10462.67,
-      9966.92
-    ]
+      8572.8,
+      7309.62,
+      6877.8,
+      6611.68,
+      6422.49,
+      6244.42,
+      6094,
+      5929.87,
+      5734.77,
+      5467.16
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_SSC_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      29471.65,
-      28407.35,
-      27845.67,
-      27084.59,
-      26065.01,
-      25354.21,
-      24896.32,
-      24153.44,
-      23374.29
-    ]
+      1330.65,
+      1126.34,
+      1062.92,
+      1025.74,
+      997.77,
+      969.72,
+      940.02,
+      904.82,
+      860.43,
+      779.68
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_STEMI_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      24153.19,
-      23037.58,
-      22206.35,
-      21586.59,
-      21115.32,
-      20628.56,
-      20101.73,
-      19646.36,
-      18970.29
-    ]
+      30164.7,
+      24293,
+      23254.1,
+      22692.5,
+      22116.5,
+      21757.3,
+      21322.4,
+      20783.4,
+      20476.1,
+      19953.7
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "COST_S_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      1117.16,
-      1057.5,
-      1018.17,
-      987.99,
-      959.01,
-      929.52,
-      896.56,
-      853.44,
-      774.29
-    ]
+      33972.8,
+      29319,
+      27496.3,
+      26303.2,
+      25262.1,
+      24252.1,
+      23236.9,
+      22319.1,
+      21480.1,
+      20469.6
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "ECPR39",
@@ -5200,7 +5996,8 @@
       97.1,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "ECPR46",
@@ -5220,7 +6017,8 @@
       99.49,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "EPREOP30",
@@ -5240,7 +6038,48 @@
       90.32,
       92.78,
       94.03
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "FOTO5",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      15.38,
+      36.63,
+      42.67,
+      45,
+      52.78,
+      58.33,
+      62.88,
+      64.52,
+      66.52,
+      75
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "FOTO6",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      36.97,
+      47.27,
+      52.03,
+      61.58,
+      72.73,
+      76.32,
+      78.22,
+      80.58,
+      83.33,
+      90.91
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "GIQIC10",
@@ -5260,7 +6099,88 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "GIQIC23",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      30.69,
+      59.44,
+      78.13,
+      88.29,
+      92.12,
+      93.46,
+      93.68,
+      94.44,
+      98.28,
+      99.33
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "GIQIC24",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      14.18,
+      33.8,
+      40.23,
+      46.71,
+      50,
+      53.79,
+      56.51,
+      60.45,
+      62.82,
+      68.37
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "GIQIC25",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      13.01,
+      20.54,
+      25.9,
+      32.74,
+      35.74,
+      38.01,
+      40.95,
+      43.66,
+      45.62,
+      51.94
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "HM7",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      7.41,
+      21.49,
+      34.19,
+      43.13,
+      50,
+      60.82,
+      70,
+      78.13,
+      83.33,
+      89.19
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS13",
@@ -5280,7 +6200,8 @@
       89.43,
       91.39,
       93.89
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "IRIS17",
@@ -5300,7 +6221,28 @@
       69.05,
       75,
       81.65
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IRIS2",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      22.22,
+      57.77,
+      68.09,
+      73.6,
+      80.12,
+      85.51,
+      89.39,
+      91.96,
+      94,
+      96.15
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS23",
@@ -5320,7 +6262,28 @@
       90.28,
       92.31,
       95.09
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IRIS41",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      30.3,
+      75,
+      90.71,
+      94.87,
+      96.49,
+      97.32,
+      98.52,
+      99.37,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS43",
@@ -5340,7 +6303,28 @@
       54.97,
       75,
       90.32
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IRIS44",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      31.03,
+      10.71,
+      4.76,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS46",
@@ -5360,7 +6344,28 @@
       73.33,
       88.1,
       97.56
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IRIS51",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      4.88,
+      19.42,
+      30.15,
+      36.73,
+      52.17,
+      68.75,
+      85.71,
+      92.86,
+      96,
+      98.65
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS53",
@@ -5380,7 +6385,8 @@
       94.44,
       94.52,
       96.67
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "IRIS54",
@@ -5400,7 +6406,8 @@
       0.55,
       0,
       0
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "IRIS55",
@@ -5420,7 +6427,28 @@
       43.49,
       45.1,
       49.31
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IRIS58",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      45.45,
+      61.3,
+      63.33,
+      71.01,
+      78.26,
+      78.99,
+      81.82,
+      82.86,
+      88,
+      91.55
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "IRIS59",
@@ -5440,7 +6468,268 @@
       17.54,
       25.96,
       31.23
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "IROMS11",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      60,
+      55.88,
+      53.06,
+      50.5,
+      48.41,
+      46.55,
+      45.16,
+      43.24,
+      41.46,
+      38.46
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS12",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      63.33,
+      59.09,
+      56,
+      53.66,
+      51.61,
+      50,
+      48.17,
+      46.43,
+      44.44,
+      41.94
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS13",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      76.19,
+      57.46,
+      54.03,
+      50.98,
+      48.08,
+      46.11,
+      43.54,
+      40.91,
+      38.46,
+      34.94
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS14",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      60.71,
+      55,
+      52.63,
+      50,
+      48.31,
+      46.67,
+      45.05,
+      42.86,
+      40.91,
+      37.27
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS16",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      66.67,
+      56.25,
+      52.83,
+      50,
+      48.04,
+      45.75,
+      44.05,
+      42.19,
+      39.02,
+      32.53
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS17",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      67.74,
+      57.78,
+      52.85,
+      50,
+      47.62,
+      45.41,
+      42.86,
+      40,
+      36.87,
+      33.33
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS18",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      61.11,
+      57.14,
+      52.94,
+      50,
+      48.57,
+      46.67,
+      45,
+      42.86,
+      40,
+      35.29
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS19",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      70.83,
+      61,
+      52.99,
+      49.25,
+      46.32,
+      44.74,
+      42.49,
+      40.91,
+      38.59,
+      34.51
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "IROMS20",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      60.87,
+      55.17,
+      51.85,
+      50,
+      47.46,
+      45.83,
+      44.74,
+      43.26,
+      41.1,
+      38.71
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "KEET01",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      61.9,
+      55,
+      50,
+      46.61,
+      43.33,
+      40,
+      36.81,
+      33.82,
+      31.67,
+      28.17
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "MBHR1",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      44.95,
+      67.34,
+      68.05,
+      80.25,
+      82.49,
+      87.57,
+      90.7,
+      95.76,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "MEX5",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.38,
+      1.85,
+      2.8,
+      3.7,
+      5.13,
+      12.28,
+      21.88,
+      25.21,
+      28.15,
+      95.12
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "MSN13",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      18,
+      72.73,
+      99.63,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "MSN15",
@@ -5460,27 +6749,28 @@
       97,
       99,
       99
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "MSPB_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      26868.88,
-      25613.44,
-      24791.16,
-      24125.77,
-      23540.52,
-      22978.77,
-      22403.35,
-      21736.57,
-      20821.58
-    ]
+      31912.4,
+      27905.4,
+      26546.1,
+      25702.3,
+      25041.2,
+      24460.95,
+      23918.1,
+      23352.8,
+      22693.8,
+      21724.6
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "NHCR4",
@@ -5500,7 +6790,8 @@
       82.14,
       93.09,
       95.24
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "PIMSH1",
@@ -5520,7 +6811,8 @@
       46.15,
       57.07,
       64.38
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "PIMSH10",
@@ -5540,7 +6832,48 @@
       64.24,
       73.14,
       80
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "PIMSH12",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.2,
+      5.2,
+      8.3,
+      11.9,
+      17.4,
+      27,
+      38.9,
+      49.5,
+      57.6,
+      75.2
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "PIMSH2",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      60,
+      55,
+      38.5,
+      32.3,
+      29.8,
+      26.6,
+      13.9,
+      11.8,
+      9.1,
+      0
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "PIMSH4",
@@ -5560,7 +6893,8 @@
       50,
       52.52,
       58.82
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "PIMSH9",
@@ -5580,7 +6914,128 @@
       3.13,
       1.37,
       0
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "PQRANES1",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.96,
+      3.16,
+      5.08,
+      7.32,
+      9.27,
+      10.65,
+      13.79,
+      16.15,
+      21.28,
+      25.93
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "QMM16",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      2,
+      50,
+      95,
+      97,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "QMM17",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      3,
+      5.44,
+      12.5,
+      17.83,
+      55,
+      76,
+      89.5,
+      98.5,
+      99.5,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "QMM18",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      2.23,
+      7.77,
+      36.09,
+      82,
+      94.5,
+      99,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "QMM19",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      38,
+      81.94,
+      97,
+      99,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "QMM20",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      32,
+      50,
+      93,
+      96,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "QUANTUM31",
@@ -5600,7 +7055,8 @@
       100,
       100,
       100
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "RCOIR10",
@@ -5620,7 +7076,8 @@
       84.88,
       89.34,
       93.26
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "RCOIR12",
@@ -5640,7 +7097,8 @@
       85.92,
       88.24,
       89.87
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "RCOIR7",
@@ -5660,7 +7118,48 @@
       94.23,
       94.84,
       95.75
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "REGCLR1",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      1.27,
+      6.67,
+      18.66,
+      21.43,
+      33.17,
+      39.22,
+      55.58,
+      60.87,
+      72.83,
+      84
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "REGCLR3",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.31,
+      1.05,
+      2.24,
+      3.39,
+      11.82,
+      14.81,
+      30.15,
+      39.47,
+      50.08,
+      94.59
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "RPAQIR13",
@@ -5680,7 +7179,8 @@
       99.4,
       99.57,
       99.93
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "RPAQIR14",
@@ -5700,7 +7200,8 @@
       93.21,
       93.98,
       95.04
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "RPAQIR15",
@@ -5720,27 +7221,28 @@
       92.31,
       93.73,
       95.74
-    ]
+    ],
+    "percentiles": {}
   },
   {
     "measureId": "TPCC_1",
-    "benchmarkYear": 2022,
     "performanceYear": 2022,
+    "benchmarkYear": 2022,
     "submissionMethod": "administrativeClaims",
-    "isToppedOut": false,
-    "isHighPriority": false,
-    "isToppedOutByProgram": false,
     "deciles": [
-      1619.29,
-      1444.45,
-      1345.87,
-      1273.47,
-      1211.21,
-      1151.86,
-      1089.71,
-      1014.26,
-      901.81
-    ]
+      2239.54,
+      1595.39,
+      1455.01,
+      1377.51,
+      1318.42,
+      1268.81,
+      1221.34,
+      1172.76,
+      1118.94,
+      1040.82
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   },
   {
     "measureId": "UREQA1",
@@ -5760,6 +7262,87 @@
       18.06,
       28.49,
       42.02
-    ]
+    ],
+    "percentiles": {}
+  },
+  {
+    "measureId": "UREQA8",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.21,
+      6.41,
+      23.29,
+      33.59,
+      38.9,
+      43.34,
+      52.1,
+      64.04,
+      68.2,
+      84.51
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "UREQA9",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      0.22,
+      3.75,
+      8.44,
+      13.34,
+      14.06,
+      20.69,
+      24.6,
+      27.66,
+      34,
+      35.3
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "USWR29",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      24.35,
+      46.34,
+      59.46,
+      70.27,
+      72.73,
+      77.78,
+      80.56,
+      85.71,
+      93.88,
+      97.14
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
+  },
+  {
+    "measureId": "USWR32",
+    "performanceYear": 2022,
+    "benchmarkYear": 2022,
+    "submissionMethod": "registry",
+    "deciles": [
+      9.81,
+      31.23,
+      68.85,
+      78.79,
+      79.47,
+      82.77,
+      87.1,
+      91.26,
+      94.62,
+      96.28
+    ],
+    "isToppedOut": false,
+    "isToppedOutByProgram": false
   }
 ]
